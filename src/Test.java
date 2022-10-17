@@ -5,5 +5,8 @@ public class Test {
 
         System.out.println(ex1); //Example@1b6d3586
         System.out.println(ex2); //Example@1b6d3586
+
+        ex1.printName();
+
     }
 }

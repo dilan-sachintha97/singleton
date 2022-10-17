@@ -15,6 +15,7 @@ public class Example {  // singleton design pattern applied for this class
 
     public void printName(){
         Scanner input = new Scanner(System.in);
+        System.out.print("Enter Name : ");
         String name = input.nextLine();
         System.out.println("Your name is " + name);
     }
